@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: spring-boot-payment
+
+
+#  datasource:
+#    url: jdbc:mariadb://172.17.0.1:3306/spring-boot-payment
+#    username: root
+#    password: root123
+#    driver-class-name: org.mariadb.jdbc.Driver
+#
+#
+#  jpa:
+#    show-sql: true
+#    generate-ddl: true
+#    hibernate:
+#      ddl-auto: create
+#      naming:
+#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#  jdbc:
+#    template:
+#      query-timeout: 15s
+#
+
+
+razorpay:
+  key-id: ${RAZORPAY_KEY_ID}
+  key-secret: ${RAZORPAY_KEY_SECRET}
+
+
+
+

@@ -1,0 +1,13 @@
+package com.example.springbootpaytm;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SpringBootPaytmApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
