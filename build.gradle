@@ -42,6 +42,8 @@ dependencies {
 
 //    runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
 
+    // Stripe
+    implementation 'com.stripe:stripe-java:28.4.0'
     // Razorpay
     implementation 'com.razorpay:razorpay-java:1.4.8'
 

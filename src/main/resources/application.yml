@@ -2,6 +2,8 @@ spring:
   application:
     name: spring-boot-payment
 
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
 
 #  datasource:
 #    url: jdbc:mariadb://172.17.0.1:3306/spring-boot-payment
@@ -22,6 +24,10 @@ spring:
 #      query-timeout: 15s
 #
 
+
+stripe:
+  secret-key: ${STRIPE_SECRET_KEY}
+  publishable-key: ${STRIPE_PUBLISHABLE_KEY}
 
 razorpay:
   key-id: ${RAZORPAY_KEY_ID}
